@@ -1,0 +1,12 @@
+--cpu Cortex-M0
+".\objects\main.o"
+".\objects\stm32f0xx_gpio.o"
+".\objects\stm32f0xx_flash.o"
+".\objects\stm32f0xx_rcc.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Lib\ARM\arm_cortexM0l_math.lib"
+".\objects\startup_stm32f051x8.o"
+".\objects\system_stm32f0xx.o"
+--strict --scatter ".\Objects\GPIO_blink.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\GPIO_blink.map" -o .\Objects\GPIO_blink.axf
