@@ -46,7 +46,7 @@ void enable_clock()
 
 int main()
 {
-	enable_clock();
+	enable_clock(); /*clock phai cap truoc khi lam viec*/
 	Init_pin();
 	while(1)
 	{

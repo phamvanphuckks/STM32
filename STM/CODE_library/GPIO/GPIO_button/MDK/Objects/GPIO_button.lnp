@@ -1,0 +1,11 @@
+--cpu Cortex-M0
+".\objects\stm32f0xx_gpio.o"
+".\objects\stm32f0xx_rcc.o"
+".\objects\stm32f0xx_flash.o"
+".\objects\main.o"
+".\objects\startup_stm32f051x8.o"
+".\objects\system_stm32f0xx.o"
+--strict --scatter ".\Objects\GPIO_button.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\GPIO_button.map" -o .\Objects\GPIO_button.axf

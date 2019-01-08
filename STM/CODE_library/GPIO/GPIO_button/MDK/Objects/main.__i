@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I..\LIB\Libraries\CMSIS\ST\STM32F0xx\Include -I..\LIB\Utilities\STM32F0-Discovery -I..\LIB\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\LIB\Libraries\CMSIS\Include
+-I C:\Users\Phuckks\Desktop\STM\STM\CODE_library\GPIO\GPIO_button\MDK\RTE
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F051x8 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX
+-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d "..\USER\main.c"
